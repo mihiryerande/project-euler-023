@@ -25,7 +25,7 @@ from math import floor, sqrt
 ABUNDANT_LIMIT = 28123
 
 
-def main():
+def main() -> int:
     """
     Returns the sum of all non-abundant sums,
       where a non-abundant sum is a number which cannot be written
@@ -35,7 +35,7 @@ def main():
       is greater than the number itself.
 
     Returns:
-        Sum of all non-abundant sums
+        (int): Sum of all non-abundant sums
     """
     global ABUNDANT_LIMIT
     n = ABUNDANT_LIMIT  # To make code easier to read
